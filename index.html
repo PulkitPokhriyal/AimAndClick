@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill ball</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+         <h1>Test Your Reflexes: Are You Fast Enough?</h1>    
+        </div>
+        <div class="flex">
+        <div class="menu">
+            <img class="start" onclick="Aimball(),timeCount()" src="./img/start-button.png" alt="">
+            <h2 class="score">Score : </h2>
+            <form>
+                <label for="time">Set time:</label>
+                <select name="timer">
+                    <option value="30000 seconds">30 seconds</option>
+                    <option value="60000 seconds">60 seconds</option>
+                    <option value="120000 seconds">120 seconds</option>
+                    <option value="180000 seconds">180 seconds</option>    
+                </select>
+            </form>
+            <p class="counter">Time : </p>
+            <form>
+                <label for="Difficulty">Difficulty:</label>
+                <select name="Difficulty">
+                    <option value="1200">Gentle Start</option>
+                    <option value="1000">Moderate Maze</option>
+                    <option value="700">Intense Blitz</option>
+                    <option value="500">Adrenaline Rush</option>    
+                </select>
+            </form>
+        </div>
+       <div class="game"> 
+        <img class="ball" src="./img/pngegg (1).png" alt="">
+        <div class="overlay" onclick="score()">
+        </div>
+    </div>
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

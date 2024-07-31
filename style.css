@@ -1,0 +1,53 @@
+body{
+      background-color:#3CB371;
+      
+}
+h1{
+      font-family: 'Comic Neue', cursive;
+      font-size: 3vw;
+      text-align: center;
+}
+.flex{
+      display: flex;
+     margin-left: 1vw;
+
+}
+.header{
+      display: flex;
+      justify-content: center;
+}
+
+
+.game {
+      width: 48vw;
+      height: 35vw;
+      background-color:#B0C4DE;
+      position: relative;
+      top: 30%;
+      left: 12%;
+      cursor: url('./img/aim1.png'), auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+      background-image: url('./img/always-grey.png');
+}
+
+.ball{
+    width:2.5vw;
+    height:2.5vw;
+    visibility: hidden;
+    position:  absolute;
+    margin: 0;
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+.overlay{
+      width: 1.18vw;
+      height: 1.18vw;
+      border-radius: 50%;
+      position: absolute;
+      visibility: hidden;
+}
+.start{
+      width: 4vw;
+      cursor: pointer;
+}
